@@ -1,0 +1,2 @@
+# AlertFramwork
+簡化alertController建構，action動作已delegate去代理實作
