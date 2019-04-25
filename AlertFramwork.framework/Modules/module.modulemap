@@ -1,0 +1,11 @@
+framework module AlertFramwork {
+  umbrella header "AlertFramwork.h"
+
+  export *
+  module * { export * }
+}
+
+module AlertFramwork.Swift {
+    header "AlertFramwork-Swift.h"
+    requires objc
+}
